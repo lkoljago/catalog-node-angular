@@ -1,0 +1,10 @@
+{
+  "db": {
+    "username": "root",
+    "password": "20190923",
+    "database": "testFullstack",
+    "host": "localhost",
+    "logging": false,
+    "dialect": "mysql"
+  }
+}
