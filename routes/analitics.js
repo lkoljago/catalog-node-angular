@@ -2,9 +2,9 @@ const express = require('express');
 const controller = require('../controllers/analitics'); 
 const r = express.Router();
 
-r.post('/login', controller.login);
+r.get('/overview', controller.overview);
 
-r.post('/register', controller.register);
+r.get('/analitics', controller.analitics);
 
 module.exports = r;
 
